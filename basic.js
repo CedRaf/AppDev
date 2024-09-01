@@ -9,8 +9,8 @@ function introduction(name) {
     console.log(`Hello ${name}!`);
 }
 
-rl.question("Enter a name: ", (answer) => {
-    introduction(answer);
+rl.question("Enter your name: ", (inputtedName) => {
+    introduction(inputtedName);
     rl.close(); 
 })
 
