@@ -5,6 +5,8 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
+console.log("Testing!");
+
 function introduction(name) {
     console.log(`Hello ${name}!`);
 }
