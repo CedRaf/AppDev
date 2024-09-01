@@ -1,5 +1,17 @@
-function introduction() {
-    console.log("Hello World!");
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+function introduction(name) {
+    console.log(`Hello ${name}!`);
 }
 
-introduction(); 
+rl.question("Enter a name: ", (answer) => {
+    introduction(answer);
+    rl.close(); 
+})
+
+ 
