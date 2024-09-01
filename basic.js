@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 
 console.log("Testing!");
 
-function introduction(age,name) {
+function introduction(name) {
     console.log(`Hello ${name}!`);
     
 }
