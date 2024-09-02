@@ -1,0 +1,4 @@
+#Assuming this ignore file is for a ReactJS project, listed below will be some common ignored files
+node_modules/
+build/
+.env
